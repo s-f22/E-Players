@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Times</title>
+    <link rel="stylesheet" href="style_pg_cadastro.css">
+</head>
+
+<body>
+    <header>
+        <iframe src="iframe_header.html" height="100%" width="100%" style="border: none; " title="Header"></iframe>
+    </header>
+
+    <section class="banner">
+        <h1>Cadastro de Times</h1>
+    </section>
+
+    <section class="cadastro">
+        <div class="container_principal">
+            <form action="post" class="box_cadastrar">
+                <div class="container_box_cadastrar">
+                    <div class="box_nome_da_equipe">
+                        <label for="n_jog">Nome do Jogador</label>
+                        <input type="text" id="n_jog" name="n_jog">
+                    </div>
+                    <div class="box_emblema">
+                        <label for="embl">Emblema</label>
+                        <input type="submit" value="Escolher Imagem">
+                    </div>
+                </div>
+                <a href="">cadastrar</a>
+            </form>
+            <div class="box_lista_de_times">
+                <h2>lista de times</h2>
+                <table>
+                    <tr>
+                        <th>Nome da equipe</th>
+                        <th>Emblema</th>
+                    </tr>
+                    <tr>
+                        <td>SENAI cytechs</td>
+                        <td><img src="img/fla-logo.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Flamengo</td>
+                        <td><img src="img/fla-logo.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <iframe src="iframe_footer.html" height="340px" width="100%" style="border: none; " title="Footer"></iframe>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.banner {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/banner_cadastro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 46px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.cadastro {
+    height: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1C21;
+}
+
+.container_principal {
+    width: 770px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_cadastrar {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-image: linear-gradient(black, #535353 , black);
+    border-image: linear-gradient(black, #535353 , black);
+    box-shadow: black;
+}
+
+.container_box_cadastrar {
+    width: 575px;
+    height: 145px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box_nome_da_equipe {
+    width: 100%;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.box_nome_da_equipe input {
+    width: 100%;
+    height: 30px;
+}
+
+.box_emblema {
+    width: 146px;
+    height: 60px;
+}
+
+.box_emblema label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.box_emblema input {
+    height: 30px;
+    width: 100%;
+    background-color: silver;
+}
+
+.box_cadastrar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001F70;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 257px;
+    border-radius: 5px;
+}
+
+.box_lista_de_times {
+    width: 100%;
+    height: 267px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_lista_de_times h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.box_lista_de_times table {
+    width: 100%;
+    height: 180px;
+    border-spacing: 0px;
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.box_lista_de_times table th {
+    border-bottom-style: solid;
+    border-color: white;
+    height: 60px;
+    color: white;
+    border-width: 1px;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.box_lista_de_times table td {
+    border-color: white;
+    height: 60px;
+    color: white;
+    padding-left: 20px;
+}
+
+.box_lista_de_times table tr td img{
+    height: 38px;
+}

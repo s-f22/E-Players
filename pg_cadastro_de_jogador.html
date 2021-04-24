@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogador</title>
+    <link rel="stylesheet" href="style_pg_cadastro_de_jogador.css">
+</head>
+
+<body>
+    <header>
+        <iframe src="iframe_header.html" height="100%" width="100%" style="border: none; " title="Header"></iframe>
+    </header>
+
+    <section class="banner">
+        <h1>Cadastro de jogador</h1>
+    </section>
+
+    <section class="cadastro">
+        <div class="container_principal">
+            <div class="box_cadastrar">
+                </form>
+                <form action="post" class="container_box_cadastrar">
+                    <div class="caixa">
+
+                        <div class="box_nome_da_equipe">
+                            <label for="n_jog">Nome do Jogador</label>
+                            <input type="text" id="n_jog" name="n_jog">
+                        </div>
+
+                        <div class="box_nome_da_equipe">
+                            <label for="e_mail">E-mail</label>
+                            <input type="text" id="e_mail" name="e_mail">
+                        </div>
+
+                        <div class="box_nome_da_equipe">
+                            <label for="key">Senha</label>
+                            <input type="text" id="key" name="key">
+                        </div>
+
+                    </div>
+                    <div class="box_emblema">
+                        <label for="cars">Equipe</label><br>
+                        <select name="equips" id="equips">
+                            <option selected=“teste_1” hidden> teste_1 </option>
+                            <option value="teste_1">teste_1</option>
+                            <option value="teste_2">teste_2</option>
+                            <option value="teste_3">teste_3</option>
+                            <option value="teste_4">teste_4</option>
+                        </select>
+                    </div>
+                </form>
+                <a href="">cadastrar</a>
+            </div>
+            <div class="box_lista_de_times">
+                <h2>lista de jogadores</h2>
+                <table>
+                    <tr>
+                        <th>Nome do jogador</th>
+                        <th>Equipe</th>
+                    </tr>
+                    <tr>
+                        <td>Thiago</td>
+                        <td>Senai cytechs</td>
+                    </tr>
+                    <tr>
+                        <td>Odirlei</td>
+                        <td>Senai cytechs</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <iframe src="iframe_footer.html" height="340px" width="100%" style="border: none; " title="Footer"></iframe>
+    </footer>
+</body>
+
+</html>
